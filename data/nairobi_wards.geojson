@@ -1,0 +1,127 @@
+{
+  "type": "FeatureCollection",
+  "name": "nairobi_wards",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": 1,
+        "ward_name": "Westlands",
+        "subcounty": "Westlands",
+        "county": "Nairobi",
+        "area_sqkm": 26.4,
+        "population": 96006
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [36.7908, -1.2631],
+            [36.8123, -1.2631],
+            [36.8123, -1.2412],
+            [36.7908, -1.2412],
+            [36.7908, -1.2631]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": 2,
+        "ward_name": "Parklands/Highridge",
+        "subcounty": "Westlands",
+        "county": "Nairobi",
+        "area_sqkm": 12.8,
+        "population": 51765
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [36.7980, -1.2730],
+            [36.8180, -1.2730],
+            [36.8180, -1.2550],
+            [36.7980, -1.2550],
+            [36.7980, -1.2730]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": 3,
+        "ward_name": "Ngara",
+        "subcounty": "Starehe",
+        "county": "Nairobi",
+        "area_sqkm": 3.2,
+        "population": 47560
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [36.8200, -1.2780],
+            [36.8350, -1.2780],
+            [36.8350, -1.2630],
+            [36.8200, -1.2630],
+            [36.8200, -1.2780]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": 4,
+        "ward_name": "Kilimani",
+        "subcounty": "Dagoretti North",
+        "county": "Nairobi",
+        "area_sqkm": 9.5,
+        "population": 83000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [36.7750, -1.2920],
+            [36.7950, -1.2920],
+            [36.7950, -1.2750],
+            [36.7750, -1.2750],
+            [36.7750, -1.2920]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ward_id": 5,
+        "ward_name": "Kibera",
+        "subcounty": "Langata",
+        "county": "Nairobi",
+        "area_sqkm": 2.5,
+        "population": 250000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [36.7750, -1.3150],
+            [36.7950, -1.3150],
+            [36.7950, -1.2990],
+            [36.7750, -1.2990],
+            [36.7750, -1.3150]
+          ]
+        ]
+      }
+    }
+  ]
+}
