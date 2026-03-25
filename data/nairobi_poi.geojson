@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "name": "nairobi_poi",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "poi_id": 1,
+        "name": "Nairobi National Park",
+        "category": "park",
+        "subcounty": "Langata",
+        "county": "Nairobi",
+        "description": "Kenya's first national park, home to lions, leopards, cheetahs, hyenas, buffaloes, and over 400 bird species."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.8716, -1.3667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi_id": 2,
+        "name": "Jomo Kenyatta International Airport",
+        "category": "airport",
+        "subcounty": "Embakasi East",
+        "county": "Nairobi",
+        "description": "The main international airport serving Nairobi and the largest in East Africa."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.9275, -1.3192]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi_id": 3,
+        "name": "University of Nairobi",
+        "category": "education",
+        "subcounty": "Starehe",
+        "county": "Nairobi",
+        "description": "The oldest and largest university in Kenya, founded in 1956."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.8219, -1.2792]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi_id": 4,
+        "name": "Nairobi Railway Station",
+        "category": "transport",
+        "subcounty": "Starehe",
+        "county": "Nairobi",
+        "description": "Historic railway station built in 1899, terminus of the Uganda Railway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.8262, -1.2919]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi_id": 5,
+        "name": "Kenyatta National Hospital",
+        "category": "health",
+        "subcounty": "Dagoretti North",
+        "county": "Nairobi",
+        "description": "Kenya's largest referral hospital and a teaching hospital for the University of Nairobi."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.8073, -1.3010]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi_id": 6,
+        "name": "Karura Forest",
+        "category": "park",
+        "subcounty": "Westlands",
+        "county": "Nairobi",
+        "description": "Urban forest reserve covering 1,041 hectares with hiking and cycling trails."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.8345, -1.2370]
+      }
+    }
+  ]
+}
